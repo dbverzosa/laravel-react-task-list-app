@@ -199,7 +199,7 @@ export default function TasksIndex({
     const pendingTasks = tasks.length - completedTasks;
 
     return (
-        <div>
+        <div >
             <Head title="Tasks" />
 
             <div className="min-h-full bg-background">
